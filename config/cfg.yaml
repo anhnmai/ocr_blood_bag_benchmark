@@ -1,0 +1,120 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ocr_blood_bag_benchmark — master configuration
+# Edit this file before any pipeline run. All paths are relative to repo root.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
+paths:
+  raw_images:      data/raw/
+  cvat_export:     data/cvat_export/
+  crops_root:      data/crops/
+  barcode_gt:      data/barcodes/ground_truth.json
+  results_dir:     results/
+  models_dir:      models/
+
+# ── Annotation ────────────────────────────────────────────────────────────────
+annotation:
+  # CVAT label names — must match exactly what was used during annotation
+  labels:
+    - barcode_region
+    - donation_id
+    - blood_group
+    - expiry_date
+    - collection_date   # optional; set include: false to skip
+
+  label_settings:
+    barcode_region:   { include: true,  ocr: false }
+    donation_id:      { include: true,  ocr: true  }
+    blood_group:      { include: true,  ocr: true  }
+    expiry_date:      { include: true,  ocr: true  }
+    collection_date:  { include: false, ocr: true  }
+
+# ── German blood-bag vocabulary constraints ───────────────────────────────────
+# Used in the constrained-decoding ablation (Option E, Month 3)
+vocabulary:
+  # Full character whitelist for ISBT 128 / DIN 58905 labels
+  charset: "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. "
+
+  blood_groups:
+    # German notation per DIN 58905 / ISBT 128
+    - "0 Rh pos"
+    - "0 Rh neg"
+    - "A Rh pos"
+    - "A Rh neg"
+    - "B Rh pos"
+    - "B Rh neg"
+    - "AB Rh pos"
+    - "AB Rh neg"
+
+  date_format: "%d.%m.%Y"   # TT.MM.JJJJ
+
+  donation_id:
+    # Blutspendedienst DRK format: 1 letter + 10 digits (adjust if needed)
+    regex: "^[A-Z][0-9]{10}$"
+
+# ── OCR engines ───────────────────────────────────────────────────────────────
+engines:
+  tesseract:
+    enabled: true
+    lang: "deu"          # requires tesseract-ocr-deu language pack
+    config: "--psm 7 --oem 1"   # single-line, LSTM engine
+    whitelist: ""        # leave empty for unconstrained; set to charset above for ablation
+
+  easyocr:
+    enabled: true
+    langs: ["de", "en"]
+    gpu: false           # force CPU for edge-representative profiling
+    detail: 0
+
+  paddleocr:
+    enabled: true
+    lang: "german"
+    use_gpu: false
+    use_angle_cls: false  # disable for tightly cropped fields
+    det: false            # detection off — we supply pre-cropped regions
+
+  trocr_small:
+    enabled: false        # set true if onnxruntime model is present
+    model_path: "models/trocr_small_int8.onnx"
+    processor: "microsoft/trocr-small-printed"
+    max_new_tokens: 32
+
+  crnn_mobile:
+    enabled: false        # placeholder for custom lightweight CRNN
+    model_path: "models/crnn_mobile.onnx"
+
+# ── Benchmarking ──────────────────────────────────────────────────────────────
+benchmark:
+  n_warmup_runs: 3        # discarded before timing
+  n_timing_runs: 20       # used for p95 latency
+  latency_percentile: 95
+  metrics:
+    - cer
+    - wer
+    - p95_latency_ms
+    - ram_mb             # peak RSS delta
+    - model_size_mb
+
+# ── Ablation ─────────────────────────────────────────────────────────────────
+ablation:
+  conditions:
+    - name: "baseline"
+      vocab_constraint: false
+      fine_tuned: false
+    - name: "constraint_only"
+      vocab_constraint: true
+      fine_tuned: false
+    - name: "finetune_only"
+      vocab_constraint: false
+      fine_tuned: true
+    - name: "constraint_and_finetune"
+      vocab_constraint: true
+      fine_tuned: true
+
+# ── Stress test ───────────────────────────────────────────────────────────────
+stress_test:
+  conditions:
+    - motion_blur
+    - glare
+    - partial_occlusion
+  battery_scan_duration_minutes: 60

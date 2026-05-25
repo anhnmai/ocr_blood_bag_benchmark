@@ -1,0 +1,35 @@
+# ── Core ─────────────────────────────────────────────────────────────────────
+numpy>=1.24
+Pillow>=10.0
+opencv-python-headless>=4.8
+pyyaml>=6.0
+tqdm>=4.66
+
+# ── Barcode decoding ──────────────────────────────────────────────────────────
+pyzbar>=0.1.9          # ZBar bindings; requires libzbar0 (apt/brew)
+python-barcode>=0.15   # fallback generation for synthetic labels
+
+# ── OCR engines ──────────────────────────────────────────────────────────────
+pytesseract>=0.3.10    # Tesseract wrapper; requires tesseract + deu lang pack
+easyocr>=1.7.1         # CNN+LSTM; use cpu=True for edge profiling
+paddleocr>=2.7.3       # PaddleOCR; swap runtime for PaddleLite on-device
+
+# ── ONNX runtime (for quantised TrOCR-small and EasyOCR export) ──────────────
+onnxruntime>=1.17      # CPU-only; use onnxruntime-gpu only if needed
+
+# ── Metrics ──────────────────────────────────────────────────────────────────
+editdistance>=0.8      # fast Levenshtein for CER/WER
+jiwer>=3.0             # WER + detailed alignment output
+
+# ── Evaluation & reporting ────────────────────────────────────────────────────
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+tabulate>=0.9          # pretty-print results tables
+
+# ── Annotation parsing ────────────────────────────────────────────────────────
+lxml>=4.9              # CVAT XML parsing
+
+# ── Notebook ─────────────────────────────────────────────────────────────────
+jupyter>=1.0
+ipykernel>=6.0

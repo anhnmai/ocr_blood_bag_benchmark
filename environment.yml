@@ -1,0 +1,53 @@
+name: blood_bag_ocr_pilot
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # ── Python runtime ────────────────────────────────────────────────────────
+  - python=3.11
+
+  # ── Tesseract OCR engine + all language packs ─────────────────────────────
+  # On Windows: binary is at $CONDA_PREFIX\Library\bin\tesseract.exe
+  # pytesseract finds it automatically via CONDA_PREFIX (see src/barcodes/barcode_vs_ocr.py)
+  # No separate installer or PATH change needed.
+  - tesseract
+
+  # ── pip-installed packages ────────────────────────────────────────────────
+  - pip
+  - pip:
+    # Barcode decoding
+    # Windows: pyzbar bundles its own DLLs — libzbar-64.dll + libiconv.dll
+    # If FileNotFoundError on import, install VC++ 2013 Redistributable:
+    # https://aka.ms/highdpimfc2013x64enu
+    # If missing curl dependenc: conda install curl -c conda-forge
+    - pyzbar
+
+    # OCR engines
+    - pytesseract>=0.3.13
+    - easyocr             # pulls PyTorch (~1.5 GB) — comment out to skip for now
+
+    # Annotation parsing
+    - lxml>=4.9
+
+    # Metrics
+    - editdistance>=0.8
+
+    # Image processing
+    - Pillow>=10.0
+    - numpy>=1.24
+    - opencv-python-headless>=4.8
+
+    # Config + utilities
+    - pyyaml>=6.0
+    - tqdm>=4.66
+
+    # Results analysis
+    - pandas>=2.0
+    - matplotlib>=3.8
+    - seaborn>=0.13
+    - tabulate>=0.9
+
+    # Install this repo as a package (makes src.* imports work everywhere)
+    - -e .

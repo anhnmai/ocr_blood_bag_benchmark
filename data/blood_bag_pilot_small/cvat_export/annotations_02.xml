@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>blood bag test annotation</name>
+      <size>27</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-04-01 09:33:02.846859+00:00</created>
+      <updated>2026-04-07 17:33:37.865006+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>26</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1</id>
+          <start>0</start>
+          <stop>26</stop>
+          <url>http://localhost:8080/api/tasks/1/dataset/export/api/jobs/1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>anhnm</username>
+        <email>anh.ng.mai@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>barcode</name>
+          <color>#b10ae1</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>product_id</name>
+          <color>#ddc41f</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>blood_group</name>
+          <color>#ad8ce3</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>expiry_date</name>
+          <color>#57e26a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-04-07 17:34:38.563995+00:00</dumped>
+  </meta>
+  <image id="0" name="20251105_101212.jpeg" width="739" height="1598">
+    <box label="barcode" source="manual" occluded="0" xtl="93.43" ytl="765.97" xbr="234.75" ybr="800.46" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="100.83" ytl="652.77" xbr="308.40" ybr="692.04" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="95.22" ytl="598.27" xbr="305.99" ybr="635.14" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="96.47" ytl="572.95" xbr="306.33" ybr="602.03" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="91.21" ytl="540.57" xbr="304.39" ybr="580.64" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="104.84" ytl="714.48" xbr="307.60" ybr="752.15" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="322.17" ytl="1137.58" xbr="422.26" ybr="1175.51" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="100.26" ytl="633.63" xbr="306.33" ybr="657.65" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="91.46" ytl="865.78" xbr="221.10" ybr="903.70" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="136.76" ytl="1020.65" xbr="275.82" ybr="1101.77" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="122.80" ytl="899.65" xbr="187.93" ybr="915.76" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="446.49" ytl="1076.48" xbr="601.35" ybr="1134.42" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="123.02" ytl="695.58" xbr="306.33" ybr="719.60" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="312.65" ytl="745.80" xbr="412.10" ybr="770.17" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="88.89" ytl="521.12" xbr="306.33" ybr="542.61" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="458.41" ytl="734.81" xbr="617.53" ybr="765.97" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="20251118_095720.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="319.86" ytl="1624.75" xbr="814.67" ybr="1684.01" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="252.74" ytl="1220.27" xbr="810.98" ybr="1318.45" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="255.50" ytl="1357.70" xbr="813.80" ybr="1467.10" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="829.49" ytl="1745.70" xbr="1102.00" ybr="1805.49" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="338.24" ytl="2164.13" xbr="517.77" ybr="2202.43" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="255.54" ytl="1509.20" xbr="830.62" ybr="1613.00" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="269.57" ytl="1669.10" xbr="827.81" ybr="1772.90" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="249.93" ytl="1806.57" xbr="628.64" ybr="1910.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="261.15" ytl="2078.68" xbr="600.59" ybr="2168.44" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1220.55" ytl="1714.00" xbr="1621.70" ybr="1798.15" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="342.50" ytl="2471.41" xbr="704.38" ybr="2673.39" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="965.27" ytl="2594.84" xbr="1574.01" ybr="2729.49" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="827.81" ytl="2740.72" xbr="1102.73" ybr="2852.93" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="260.60" ytl="1168.45" xbr="808.75" ybr="1242.52" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="266.52" ytl="1319.56" xbr="811.71" ybr="1384.75" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="263.56" ytl="1458.82" xbr="808.75" ybr="1524.01" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="20251118_095724.jpg" width="1884" height="4080">
+    <box label="expiry_date" source="manual" occluded="0" xtl="796.04" ytl="1686.80" xbr="1099.30" ybr="1758.12" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="216.16" ytl="2148.19" xbr="421.10" ybr="2192.50" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="163.25" ytl="1021.44" xbr="783.44" ybr="1106.45" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="160.10" ytl="1185.15" xbr="777.15" ybr="1260.71" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="163.25" ytl="1345.71" xbr="783.44" ybr="1437.00" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="219.92" ytl="1518.86" xbr="789.74" ybr="1603.86" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="156.96" ytl="1078.10" xbr="789.74" ybr="1185.15" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="163.25" ytl="1241.82" xbr="786.59" ybr="1348.85" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="160.10" ytl="1411.82" xbr="789.74" ybr="1515.71" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="160.10" ytl="1588.12" xbr="786.59" ybr="1701.45" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="128.62" ytl="1745.52" xbr="569.37" ybr="1852.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="134.92" ytl="2047.75" xbr="512.70" ybr="2164.23" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1246.20" ytl="1657.40" xbr="1737.30" ybr="1751.80" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="232.51" ytl="2516.83" xbr="638.63" ybr="2797.02" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="972.33" ytl="2693.13" xbr="1686.97" ybr="2885.16" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="759.74" ytl="2883.80" xbr="1063.69" ybr="2969.40" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="20251118_095728.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="983.27" ytl="2603.29" xbr="1720.39" ybr="2761.25" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="78.32" ytl="941.47" xbr="739.75" ybr="1053.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="84.90" ytl="1099.43" xbr="739.75" ybr="1217.89" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="81.61" ytl="1263.96" xbr="746.33" ybr="1389.01" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="88.19" ytl="1461.41" xbr="743.04" ybr="1579.87" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="61.86" ytl="1619.36" xbr="509.40" ybr="1747.70" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1226.78" ytl="1520.64" xbr="1713.81" ybr="1622.65" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="61.90" ytl="1945.15" xbr="463.33" ybr="2066.90" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="180.33" ytl="2428.88" xbr="634.45" ybr="2715.18" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="795.69" ytl="2777.70" xbr="1118.19" ybr="2909.33" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="94.77" ytl="885.53" xbr="736.46" ybr="964.51" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="101.35" ytl="1046.78" xbr="743.04" ybr="1122.46" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="98.06" ytl="1208.02" xbr="743.04" ybr="1283.71" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="147.42" ytl="1392.30" xbr="743.04" ybr="1474.57" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="766.08" ytl="1548.50" xbr="1094.00" ybr="1625.94" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="147.57" ytl="2043.30" xbr="375.08" ybr="2101.00" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="20251118_095736.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="193.49" ytl="1326.49" xbr="805.57" ybr="1395.59" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="193.49" ytl="1165.20" xbr="798.98" ybr="1234.35" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="196.78" ytl="997.42" xbr="798.99" ybr="1086.27" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="186.91" ytl="1050.07" xbr="798.99" ybr="1171.82" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="186.91" ytl="1214.60" xbr="805.57" ybr="1323.20" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="186.91" ytl="1385.72" xbr="808.86" ybr="1487.73" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="193.49" ytl="1556.80" xbr="818.73" ybr="1665.43" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="160.58" ytl="1708.21" xbr="598.25" ybr="1823.39" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="173.75" ytl="2017.54" xbr="562.05" ybr="2122.84" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="282.34" ytl="2465.08" xbr="693.68" ybr="2711.88" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1029.34" ytl="2590.10" xbr="1690.77" ybr="2764.54" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="822.02" ytl="2804.02" xbr="1128.06" ybr="2929.07" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1259.69" ytl="1606.20" xbr="1674.32" ybr="1718.09" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="266.84" ytl="2106.60" xbr="480.09" ybr="2150.96" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="835.18" ytl="1633.70" xbr="1151.09" ybr="1701.63" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="252.72" ytl="1497.61" xbr="825.31" ybr="1586.46" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="20251118_095739.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="828.22" ytl="3131.51" xbr="1184.89" ybr="3282.25" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="140.84" ytl="1191.57" xbr="838.47" ybr="1316.62" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="140.84" ytl="1375.85" xbr="845.06" ybr="1500.90" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="144.13" ytl="1570.00" xbr="851.64" ybr="1685.18" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="144.13" ytl="1774.03" xbr="858.22" ybr="1892.49" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="104.64" ytl="1951.73" xbr="608.12" ybr="2063.61" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1358.41" ytl="1833.26" xbr="1884.00" ybr="1928.69" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="114.51" ytl="2293.96" xbr="558.76" ybr="2402.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="259.24" ytl="2853.40" xbr="741.18" ybr="3140.00" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1063.88" ytl="2991.39" xbr="1862.14" ybr="3176.10" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="879.18" ytl="1862.00" xbr="1223.20" ybr="1936.50" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="162.00" ytl="1132.33" xbr="823.64" ybr="1224.93" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="159.30" ytl="1314.85" xbr="829.00" ybr="1396.72" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="163.30" ytl="1506.77" xbr="831.70" ybr="1584.61" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="226.41" ytl="1706.74" xbr="837.06" ybr="1785.90" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="213.23" ytl="2397.66" xbr="440.31" ybr="2444.15" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="20251118_095741.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="199.02" ytl="1158.38" xbr="807.55" ybr="1227.17" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="196.38" ytl="1322.42" xbr="799.61" ybr="1388.56" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="236.06" ytl="1491.74" xbr="783.74" ybr="1565.83" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="183.10" ytl="1216.60" xbr="820.78" ybr="1314.48" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="177.86" ytl="1375.33" xbr="810.20" ybr="1478.52" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="156.69" ytl="1555.24" xbr="802.26" ybr="1650.49" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="130.23" ytl="1706.05" xbr="564.14" ybr="1798.65" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="109.07" ytl="2010.31" xbr="495.35" ybr="2105.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1240.20" ytl="1660.57" xbr="1750.10" ybr="1763.34" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="207.67" ytl="2509.71" xbr="661.90" ybr="2771.27" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="713.71" ytl="2820.39" xbr="1039.83" ybr="2941.86" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="960.34" ytl="2708.24" xbr="1709.32" ybr="2890.70" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="187.92" ytl="2101.90" xbr="388.99" ybr="2154.56" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="820.80" ytl="1659.80" xbr="1103.10" ybr="1724.57" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="755.67" ytl="0.00" xbr="1077.86" ybr="131.41" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="244.54" ytl="0.00" xbr="692.69" ybr="121.72" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="20251118_095743.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1283.26" ytl="1782.51" xbr="1770.08" ybr="1861.89" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="84.73" ytl="1163.40" xbr="796.44" ybr="1256.01" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="87.37" ytl="1338.03" xbr="793.79" ybr="1438.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="100.60" ytl="1517.94" xbr="799.08" ybr="1621.12" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="108.54" ytl="1716.37" xbr="801.73" ybr="1822.20" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="82.08" ytl="1883.05" xbr="563.61" ybr="1988.88" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="80.65" ytl="2220.98" xbr="529.44" ybr="2318.41" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="209.10" ytl="2712.10" xbr="677.34" ybr="2964.70" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="804.93" ytl="3095.22" xbr="1148.05" ybr="3197.20" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1007.59" ytl="2864.38" xbr="1782.78" ybr="3054.17" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="104.20" ytl="1101.17" xbr="771.54" ybr="1160.37" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="112.27" ytl="1276.10" xbr="779.61" ybr="1335.28" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="120.34" ytl="1456.37" xbr="782.30" ybr="1518.26" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="179.54" ytl="1650.11" xbr="793.06" ybr="1714.69" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="191.51" ytl="2316.03" xbr="418.61" ybr="2371.42" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="830.86" ytl="1797.90" xbr="1142.40" ybr="1868.67" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="20251118_095746.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="97.97" ytl="2044.32" xbr="523.57" ybr="2129.78" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1212.24" ytl="1958.06" xbr="1709.52" ybr="2037.55" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="89.17" ytl="2351.58" xbr="474.39" ybr="2438.47" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="166.51" ytl="2817.87" xbr="590.12" ybr="3064.09" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="197.45" ytl="1826.64" xbr="732.52" ybr="1880.49" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="726.33" ytl="3160.75" xbr="1029.85" ybr="3255.25" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="922.52" ytl="3025.04" xbr="1663.97" ybr="3175.00" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="182.57" ytl="2437.50" xbr="376.23" ybr="2482.91" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="777.73" ytl="1966.70" xbr="1059.90" ybr="2035.22" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="141.86" ytl="1640.70" xbr="739.47" ybr="1699.80" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="140.12" ytl="1472.20" xbr="732.52" ybr="1533.04" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="138.38" ytl="1307.20" xbr="734.26" ybr="1369.74" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="125.60" ytl="1362.93" xbr="748.08" ybr="1462.75" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="127.86" ytl="1527.80" xbr="750.33" ybr="1624.25" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="127.54" ytl="1698.86" xbr="749.86" ybr="1793.85" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="131.42" ytl="1884.97" xbr="750.83" ybr="1974.15" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="20251118_095748.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1220.61" ytl="1760.14" xbr="1713.23" ybr="1858.17" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="90.43" ytl="2139.08" xbr="479.16" ybr="2223.69" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="138.74" ytl="2614.60" xbr="597.46" ybr="2882.65" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="677.71" ytl="2981.46" xbr="1007.17" ybr="3079.21" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="887.33" ytl="2837.96" xbr="1650.56" ybr="2983.74" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="166.90" ytl="1101.75" xbr="759.85" ybr="1160.04" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="160.85" ytl="1264.57" xbr="759.85" ybr="1318.84" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="138.04" ytl="1158.32" xbr="779.08" ybr="1250.39" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="136.30" ytl="1319.88" xbr="779.08" ybr="1408.48" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="138.04" ytl="1486.66" xbr="773.87" ybr="1576.99" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="170.12" ytl="2224.85" xbr="372.86" ybr="2276.57" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="792.46" ytl="1758.50" xbr="1075.90" ybr="1824.90" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="158.84" ytl="1431.40" xbr="751.80" ybr="1485.67" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="205.07" ytl="1612.30" xbr="747.78" ybr="1666.57" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="136.30" ytl="1672.54" xbr="770.39" ybr="1761.14" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="98.47" ytl="1828.26" xbr="533.64" ybr="1916.87" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="20251118_095752.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1240.32" ytl="1993.93" xbr="1657.25" ybr="2061.68" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="328.26" ytl="1465.80" xbr="830.30" ybr="1537.04" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="331.74" ytl="1599.58" xbr="835.54" ybr="1672.54" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="336.95" ytl="1742.03" xbr="835.54" ybr="1808.05" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="389.07" ytl="1900.12" xbr="844.23" ybr="1960.92" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="312.63" ytl="1516.19" xbr="852.91" ybr="1610.00" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="312.63" ytl="1649.96" xbr="858.12" ybr="1745.51" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="317.84" ytl="1788.94" xbr="859.86" ybr="1887.96" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="316.10" ytl="1947.03" xbr="868.55" ybr="2042.57" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="277.88" ytl="2089.48" xbr="677.45" ybr="2172.87" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="277.88" ytl="2353.54" xbr="637.49" ybr="2438.67" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="319.67" ytl="2766.59" xbr="724.55" ybr="2961.24" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="803.70" ytl="3057.27" xbr="1086.60" ybr="3157.19" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1006.16" ytl="2898.35" xbr="1647.69" ybr="3052.01" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="882.45" ytl="2010.90" xbr="1125.90" ybr="2070.37" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="373.67" ytl="2434.00" xbr="542.91" ybr="2469.99" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1003.90" ytl="0.00" xbr="1299.30" ybr="48.80" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="20251118_100154.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="486.88" ytl="2247.90" xbr="829.06" ybr="2434.01" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="918.24" ytl="2530.95" xbr="1167.36" ybr="2607.52" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1066.83" ytl="2403.93" xbr="1644.65" ybr="2534.99" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="478.30" ytl="1134.25" xbr="928.68" ybr="1182.76" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="474.68" ytl="1255.20" xbr="922.90" ybr="1301.51" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="466.71" ytl="1376.81" xbr="917.09" ybr="1423.88" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="502.91" ytl="1506.43" xbr="912.75" ybr="1563.63" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="440.48" ytl="1548.71" xbr="932.96" ybr="1629.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="441.98" ytl="1413.58" xbr="934.46" ybr="1493.16" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="449.49" ytl="1294.96" xbr="941.97" ybr="1368.53" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="450.99" ytl="1171.84" xbr="946.47" ybr="1249.92" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="943.25" ytl="1632.90" xbr="1153.10" ybr="1680.73" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="474.21" ytl="1955.80" xbr="620.14" ybr="1993.08" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="416.46" ytl="1662.82" xbr="752.78" ybr="1731.89" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="408.95" ytl="1891.04" xbr="706.24" ybr="1955.61" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1257.12" ytl="1633.21" xbr="1645.23" ybr="1696.93" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="20251118_100158.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="414.29" ytl="1599.40" xbr="777.05" ybr="1670.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1296.66" ytl="1556.17" xbr="1660.15" ybr="1637.27" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="410.61" ytl="1834.15" xbr="729.43" ybr="1901.94" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="450.85" ytl="2192.99" xbr="809.44" ybr="2393.88" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="878.36" ytl="2476.37" xbr="1116.77" ybr="2552.10" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1048.59" ytl="2347.67" xbr="1642.34" ybr="2499.00" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="496.15" ytl="1901.03" xbr="647.06" ybr="1936.19" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="485.19" ytl="1049.90" xbr="947.27" ybr="1121.68" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="480.70" ytl="1177.76" xbr="943.91" ybr="1239.44" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="476.22" ytl="1298.88" xbr="939.42" ybr="1366.18" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="515.47" ytl="1439.08" xbr="939.42" ybr="1500.77" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="970.65" ytl="1570.70" xbr="1188.10" ybr="1613.12" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="461.75" ytl="1091.96" xbr="965.33" ybr="1186.17" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="456.14" ytl="1217.57" xbr="958.60" ybr="1307.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="458.38" ytl="1338.70" xbr="957.48" ybr="1431.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="447.17" ytl="1480.02" xbr="956.36" ybr="1565.26" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="20251118_100201.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1260.15" ytl="1694.84" xbr="1698.85" ybr="1769.94" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="276.20" ytl="2049.34" xbr="607.83" ybr="2142.03" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="368.45" ytl="2470.62" xbr="758.73" ybr="2694.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="797.35" ytl="2801.35" xbr="1085.31" ybr="2888.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1040.24" ytl="2633.25" xbr="1714.24" ybr="2785.95" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="295.31" ytl="1142.76" xbr="840.39" ybr="1197.72" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="293.06" ytl="1289.69" xbr="838.14" ybr="1337.92" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="296.43" ytl="1428.76" xbr="837.02" ybr="1489.33" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="350.26" ytl="1588.02" xbr="839.27" ybr="1647.47" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="345.62" ytl="2132.41" xbr="514.32" ybr="2175.23" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="880.11" ytl="1705.80" xbr="1133.00" ybr="1761.47" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="270.87" ytl="1191.71" xbr="854.83" ybr="1277.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="270.87" ytl="1337.10" xbr="857.43" ybr="1417.51" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="274.77" ytl="1477.20" xbr="857.43" ybr="1569.34" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="277.36" ytl="1635.52" xbr="860.02" ybr="1728.96" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="242.32" ytl="1778.27" xbr="653.69" ybr="1867.81" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="20251118_100205.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="438.28" ytl="1153.40" xbr="974.22" ybr="1318.24" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="867.40" ytl="1746.20" xbr="1098.50" ybr="1830.59" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="291.08" ytl="1996.07" xbr="450.05" ybr="2064.89" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="411.02" ytl="1279.31" xbr="940.48" ybr="1445.41" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="372.09" ytl="1411.67" xbr="910.63" ybr="1582.97" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="328.00" ytl="1557.01" xbr="882.10" ybr="1725.71" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="269.58" ytl="1673.80" xbr="654.99" ybr="1808.76" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1205.46" ytl="1804.03" xbr="1615.49" ybr="1965.91" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="229.50" ytl="1918.14" xbr="555.34" ybr="2045.58" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="220.18" ytl="2356.20" xbr="602.55" ybr="2622.80" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="670.52" ytl="2772.10" xbr="946.37" ybr="2904.03" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="787.48" ytl="2625.01" xbr="1464.88" ybr="2896.23" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="862.47" ytl="137.34" xbr="1143.90" ybr="218.99" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1046.61" ytl="3.57" xbr="1675.50" ybr="166.88" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="433.37" ytl="0.00" xbr="805.14" ybr="53.95" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="475.65" ytl="1108.14" xbr="962.28" ybr="1243.10" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="447.10" ytl="1239.21" xbr="931.14" ybr="1374.17" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="414.66" ytl="1372.87" xbr="897.40" ybr="1503.94" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="419.85" ytl="1522.10" xbr="863.66" ybr="1654.47" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="20251118_100208.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="236.13" ytl="1158.33" xbr="775.16" ybr="1218.39" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="239.13" ytl="1308.48" xbr="772.15" ybr="1365.53" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="240.63" ytl="1461.63" xbr="772.15" ybr="1515.68" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="294.69" ytl="1631.29" xbr="769.15" ybr="1677.84" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="211.60" ytl="1209.00" xbr="794.23" ybr="1302.41" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="216.76" ytl="1358.21" xbr="790.34" ybr="1449.04" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="221.95" ytl="1512.63" xbr="785.15" ybr="1599.58" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="224.55" ytl="1680.03" xbr="783.85" ybr="1764.38" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="930.90" ytl="2706.11" xbr="1587.02" ybr="2886.69" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="806.18" ytl="1757.50" xbr="1058.10" ybr="1818.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="204.61" ytl="2098.44" xbr="531.06" ybr="2176.42" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="299.03" ytl="2516.66" xbr="672.01" ybr="2771.37" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="755.93" ytl="2862.01" xbr="1040.81" ybr="2957.35" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1200.89" ytl="1753.98" xbr="1648.34" ybr="1834.09" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="284.10" ytl="2174.37" xbr="446.81" ybr="2211.92" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="202.49" ytl="1824.52" xbr="579.02" ybr="1903.44" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="20251118_100215.jpg" width="1884" height="4080">
+    <box label="expiry_date" source="manual" occluded="0" xtl="859.96" ytl="1899.00" xbr="1103.70" ybr="1961.87" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="985.88" ytl="2841.57" xbr="1643.86" ybr="2988.20" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="825.00" ytl="2976.65" xbr="1109.45" ybr="3076.13" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="316.01" ytl="2664.27" xbr="708.53" ybr="2907.26" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="239.77" ytl="2226.44" xbr="583.59" ybr="2307.59" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1231.90" ytl="1903.51" xbr="1689.85" ybr="1980.08" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="255.07" ytl="1962.14" xbr="628.82" ybr="2034.62" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="314.71" ytl="1330.40" xbr="832.87" ybr="1377.51" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="310.22" ytl="1468.35" xbr="829.51" ybr="1516.58" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="307.98" ytl="1615.28" xbr="823.90" ybr="1660.14" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="353.96" ytl="1777.91" xbr="820.54" ybr="1819.40" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="297.70" ytl="1378.03" xbr="846.45" ybr="1454.27" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="296.00" ytl="1518.78" xbr="845.61" ybr="1594.18" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="291.08" ytl="1663.97" xbr="842.35" ybr="1740.20" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="283.54" ytl="1826.50" xbr="835.64" ybr="1898.55" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="325.07" ytl="2305.90" xbr="495.95" ybr="2344.98" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="20251118_100217.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="870.42" ytl="2863.67" xbr="1158.38" ybr="2959.50" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="298.90" ytl="1257.88" xbr="887.47" ybr="1353.97" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="304.90" ytl="1403.52" xbr="888.97" ybr="1501.11" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="313.91" ytl="1556.67" xbr="894.97" ybr="1655.76" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="322.92" ytl="1723.33" xbr="893.50" ybr="1817.90" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="274.87" ytl="1868.97" xbr="695.28" ybr="1950.05" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1303.00" ytl="1778.58" xbr="1710.97" ybr="1858.17" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="274.33" ytl="2143.93" xbr="638.88" ybr="2223.98" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="347.39" ytl="2579.90" xbr="766.15" ybr="2784.43" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1060.50" ytl="2735.83" xbr="1719.93" ybr="2858.99" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="320.09" ytl="1207.03" xbr="868.54" ybr="1273.20" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="329.07" ytl="1357.32" xbr="875.27" ybr="1420.13" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="336.92" ytl="1507.61" xbr="873.03" ybr="1572.66" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="396.72" ytl="1671.34" xbr="882.64" ybr="1735.01" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="910.70" ytl="1790.10" xbr="1169.50" ybr="1852.01" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="363.69" ytl="2222.04" xbr="544.89" ybr="2259.91" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="20251118_100220.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="453.56" ytl="1305.73" xbr="923.50" ybr="1361.80" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="458.05" ytl="1171.14" xbr="931.35" ybr="1236.19" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="460.40" ytl="2081.31" xbr="619.96" ybr="2119.71" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="955.33" ytl="1710.50" xbr="1190.50" ybr="1763.87" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="427.50" ytl="1493.55" xbr="943.98" ybr="1566.23" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="418.42" ytl="1637.60" xbr="938.79" ybr="1711.57" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="396.63" ytl="1764.68" xbr="747.54" ybr="1835.44" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="486.09" ytl="1592.85" xbr="921.25" ybr="1635.47" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="390.78" ytl="2013.63" xbr="699.08" ybr="2080.70" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1299.33" ytl="1706.17" xbr="1684.20" ybr="1788.15" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="399.49" ytl="2387.87" xbr="743.49" ybr="2558.78" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="868.08" ytl="2720.57" xbr="1132.20" ybr="2801.91" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1032.53" ytl="2555.47" xbr="1630.61" ybr="2709.60" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="432.70" ytl="1217.15" xbr="953.07" ybr="1302.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="430.10" ytl="1353.40" xbr="945.28" ybr="1433.86" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="446.83" ytl="1442.60" xbr="926.86" ybr="1489.30" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="20251118_100226.jpg" width="1884" height="4080">
+    <box label="expiry_date" source="manual" occluded="0" xtl="882.62" ytl="1935.60" xbr="1116.80" ybr="1993.76" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1240.60" ytl="1903.96" xbr="1644.67" ybr="1980.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="298.88" ytl="1450.56" xbr="861.70" ybr="1550.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="317.49" ytl="1585.45" xbr="859.37" ybr="1683.13" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="322.41" ytl="2272.79" xbr="650.83" ybr="2352.38" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="528.08" ytl="2661.29" xbr="881.66" ybr="2787.70" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="907.89" ytl="2898.98" xbr="1178.15" ybr="2984.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1190.16" ytl="2826.90" xbr="1640.60" ybr="2944.02" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="328.51" ytl="1398.26" xbr="821.99" ybr="1475.64" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="324.02" ytl="1542.94" xbr="828.72" ybr="1611.40" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="343.08" ytl="1679.80" xbr="844.43" ybr="1749.31" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="401.41" ytl="1830.06" xbr="845.55" ybr="1896.23" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="329.12" ytl="1873.83" xbr="871.00" ybr="1973.84" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="322.14" ytl="1724.99" xbr="866.35" ybr="1825.00" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="304.82" ytl="2014.75" xbr="680.15" ybr="2101.88" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="413.12" ytl="2348.40" xbr="567.25" ybr="2382.65" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="20251118_100309.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="441.10" ytl="1410.89" xbr="918.68" ybr="1467.99" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="442.43" ytl="1552.34" xbr="923.87" ybr="1605.55" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="484.34" ytl="1703.00" xbr="919.07" ybr="1752.31" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="427.60" ytl="1315.86" xbr="935.30" ybr="1408.02" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="449.91" ytl="2483.62" xbr="793.48" ybr="2670.11" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="961.10" ytl="2759.12" xbr="1203.94" ybr="2844.04" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1062.58" ytl="2632.82" xbr="1657.76" ybr="2765.62" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="429.30" ytl="1454.10" xbr="933.70" ybr="1540.39" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="955.35" ytl="1818.30" xbr="1193.80" ybr="1877.05" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="434.45" ytl="1751.54" xbr="933.85" ybr="1829.77" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="404.57" ytl="2138.03" xbr="702.59" ybr="2208.35" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1309.28" ytl="1810.68" xbr="1707.92" ybr="1873.26" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="485.96" ytl="2211.24" xbr="601.81" ybr="2251.06" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="434.42" ytl="1596.65" xbr="936.93" ybr="1681.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="405.04" ytl="1881.08" xbr="742.98" ybr="1957.43" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="438.54" ytl="1269.44" xbr="921.27" ybr="1334.33" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="20251118_100311.jpg" width="1884" height="4080">
+    <box label="expiry_date" source="manual" occluded="0" xtl="909.87" ytl="1748.20" xbr="1206.45" ybr="1805.89" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="383.69" ytl="1248.64" xbr="898.49" ybr="1337.24" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="381.44" ytl="1385.47" xbr="898.49" ybr="1468.47" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="380.32" ytl="1526.80" xbr="895.12" ybr="1609.78" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="378.08" ytl="1681.70" xbr="895.12" ybr="1760.07" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="347.78" ytl="1814.02" xbr="704.50" ybr="1887.69" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="341.08" ytl="2071.07" xbr="651.71" ybr="2141.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1273.30" ytl="1738.70" xbr="1683.82" ybr="1823.31" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="380.25" ytl="2417.40" xbr="727.09" ybr="2615.80" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="834.29" ytl="2691.26" xbr="1090.24" ybr="2790.14" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="998.11" ytl="2596.09" xbr="1625.28" ybr="2710.47" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="403.68" ytl="1203.60" xbr="884.57" ybr="1262.25" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="402.00" ytl="1338.48" xbr="879.54" ybr="1397.13" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="399.49" ytl="1480.91" xbr="880.38" ybr="1532.85" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="440.54" ytl="1635.90" xbr="876.19" ybr="1682.82" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="428.54" ytl="2144.77" xbr="551.20" ybr="2182.32" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="20251118_100313.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1034.28" ytl="2601.03" xbr="1649.22" ybr="2761.89" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="948.66" ytl="1719.40" xbr="1192.60" ybr="1779.05" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="410.21" ytl="1158.11" xbr="909.54" ybr="1220.10" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="404.35" ytl="1296.34" xbr="909.54" ybr="1354.15" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="406.86" ytl="1442.12" xbr="909.54" ybr="1497.41" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="450.58" ytl="2126.16" xbr="575.41" ybr="2163.86" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="451.04" ytl="1598.65" xbr="909.13" ybr="1648.09" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="390.19" ytl="1204.90" xbr="926.30" ybr="1294.62" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="387.95" ytl="1343.97" xbr="928.54" ybr="1430.33" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="389.07" ytl="1488.65" xbr="929.66" ybr="1576.14" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="389.07" ytl="1649.04" xbr="925.18" ybr="1729.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="372.43" ytl="1781.80" xbr="725.79" ybr="1865.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="367.00" ytl="2047.72" xbr="682.00" ybr="2124.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1313.89" ytl="1714.74" xbr="1713.59" ybr="1789.33" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="418.50" ytl="2420.34" xbr="784.95" ybr="2622.94" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="807.75" ytl="2692.26" xbr="1074.94" ybr="2813.91" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="20251118_100317.jpg" width="1884" height="4080">
+    <box label="blood_group" source="manual" occluded="0" xtl="311.32" ytl="2245.53" xbr="461.52" ybr="2291.21" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="211.30" ytl="1325.13" xbr="848.35" ybr="1426.07" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="209.06" ytl="1495.61" xbr="855.08" ybr="1592.06" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="215.79" ytl="1679.54" xbr="856.20" ybr="1777.12" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="183.06" ytl="1841.09" xbr="627.39" ybr="1935.59" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="190.20" ytl="2149.62" xbr="583.84" ybr="2240.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1302.80" ytl="1746.03" xbr="1732.77" ybr="1823.01" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="309.87" ytl="2565.40" xbr="722.60" ybr="2773.21" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="875.89" ytl="2834.54" xbr="1163.35" ybr="2932.30" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1237.14" ytl="2731.94" xbr="1705.62" ybr="2861.55" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="228.35" ytl="1109.40" xbr="822.57" ybr="1174.34" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="878.98" ytl="1755.10" xbr="1167.00" ybr="1827.97" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="209.06" ytl="1162.50" xbr="847.23" ybr="1263.44" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="229.32" ytl="1272.25" xbr="825.47" ybr="1339.13" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="289.74" ytl="1624.50" xbr="836.43" ybr="1683.10" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="230.29" ytl="1438.97" xbr="828.38" ybr="1502.95" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="20251118_100319.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="1179.81" ytl="1856.07" xbr="1669.91" ybr="1933.99" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="120.67" ytl="1225.22" xbr="698.75" ybr="1302.29" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="119.00" ytl="1386.91" xbr="698.75" ybr="1458.12" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="119.00" ytl="1553.63" xbr="700.42" ybr="1622.33" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="174.87" ytl="1738.59" xbr="704.30" ybr="1800.54" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="104.59" ytl="1278.60" xbr="716.17" ybr="1385.82" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="102.91" ytl="1441.11" xbr="717.85" ybr="1548.35" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="100.15" ytl="1608.76" xbr="722.63" ybr="1710.13" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="100.48" ytl="1793.07" xbr="726.31" ybr="1893.60" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="69.17" ytl="1956.06" xbr="499.73" ybr="2049.93" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="87.87" ytl="2263.60" xbr="445.57" ybr="2352.66" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="291.38" ytl="2696.24" xbr="714.21" ybr="2873.45" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="785.73" ytl="2915.20" xbr="1095.92" ybr="3023.76" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1211.31" ytl="2880.44" xbr="1724.04" ybr="2980.97" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="198.11" ytl="2357.48" xbr="325.78" ybr="2398.79" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="751.80" ytl="1866.40" xbr="1039.30" ybr="1941.99" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="20251118_100322.jpg" width="1884" height="4080">
+    <box label="product_id" source="manual" occluded="0" xtl="351.07" ytl="1445.80" xbr="877.93" ybr="1499.01" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="352.37" ytl="1292.67" xbr="876.63" ybr="1351.07" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="335.30" ytl="1344.75" xbr="896.53" ybr="1431.03" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="352.40" ytl="1147.33" xbr="875.34" ybr="1209.62" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1258.48" ytl="2677.70" xbr="1735.40" ybr="2821.17" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="336.20" ytl="1195.47" xbr="892.65" ybr="1287.56" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="899.57" ytl="2736.65" xbr="1181.96" ybr="2832.23" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="395.01" ytl="2134.20" xbr="525.90" ybr="2172.61" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="418.62" ytl="2436.37" xbr="806.62" ybr="2625.36" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="289.08" ytl="2050.93" xbr="642.66" ybr="2134.79" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1303.58" ytl="1709.55" xbr="1755.42" ybr="1781.50" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="293.02" ytl="1799.10" xbr="695.42" ybr="1864.19" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="340.93" ytl="1660.28" xbr="897.22" ybr="1740.71" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="338.08" ytl="1494.90" xbr="894.37" ybr="1579.52" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="406.87" ytl="1610.61" xbr="880.53" ybr="1661.22" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="923.86" ytl="1729.10" xbr="1175.10" ybr="1791.14" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="20251118_100349.jpg" width="1884" height="4080">
+    <box label="barcode" source="manual" occluded="0" xtl="934.92" ytl="2634.80" xbr="1492.89" ybr="2711.04" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="354.62" ytl="2510.01" xbr="679.74" ybr="2660.62" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="296.56" ytl="2179.09" xbr="588.09" ybr="2245.61" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="286.50" ytl="1933.78" xbr="619.64" ybr="2007.64" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="1162.60" ytl="1849.71" xbr="1527.50" ybr="1914.16" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="302.47" ytl="1803.48" xbr="796.86" ybr="1883.59" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="295.27" ytl="1655.48" xbr="795.30" ybr="1738.71" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="288.82" ytl="1519.53" xbr="789.82" ybr="1603.31" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="284.63" ytl="1383.81" xbr="786.46" ybr="1471.78" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="355.92" ytl="1759.34" xbr="780.50" ybr="1809.75" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="306.48" ytl="1611.00" xbr="778.60" ybr="1665.32" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="300.67" ytl="1474.36" xbr="773.71" ybr="1529.61" z_order="0">
+    </box>
+    <box label="product_id" source="manual" occluded="0" xtl="294.85" ytl="1338.60" xbr="772.74" ybr="1397.78" z_order="0">
+    </box>
+    <box label="expiry_date" source="manual" occluded="0" xtl="818.40" ytl="1867.20" xbr="1045.50" ybr="1921.51" z_order="0">
+    </box>
+    <box label="blood_group" source="manual" occluded="0" xtl="378.58" ytl="2248.31" xbr="495.15" ybr="2284.52" z_order="0">
+    </box>
+    <box label="barcode" source="manual" occluded="0" xtl="790.97" ytl="2703.36" xbr="1026.80" ybr="2786.11" z_order="0">
+    </box>
+  </image>
+</annotations>
