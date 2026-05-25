@@ -1,6 +1,6 @@
 # ocr_blood_bag_benchmark
 
-> **Edge-aware OCR benchmarking for German blood-bag labels**  
+> **OCR Benchmarking and model selection for blood bag labels**  
 > On-going project 
 
 This repository contains the full pipeline of the study:  
